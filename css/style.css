@@ -201,7 +201,7 @@ a {
     
 }
 .tepadan-4-text {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 60px;
 }
 .tepadan-4-text a {
@@ -218,13 +218,14 @@ a {
     color: #FFFFFF;
 }
 .tepadan-4-text p {
+    margin-top: 20px;
     font-size: 21px;
     line-height: 39px;
     color: rgba(255, 255, 255, 0.7);
-    width: 400px; 
+    width: 500px; 
 }
 .tepadan-4-img {
-    margin-left: 50px;
+    margin-left: 0px;
     
 }
 .tepadan-4-img-1 {
@@ -426,4 +427,17 @@ a {
     text-align: right;
     letter-spacing: -0.500211px;
     color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+.bolimlar-aro {
+    border-radius: 10px;
+    margin-left: 520px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    transition: color, background-color 1s ease;
+}
+.bolimlar-aro:hover {
+    background-color: #fff;
+    color: red;
 }
