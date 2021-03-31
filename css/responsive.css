@@ -448,9 +448,9 @@
     }
     .tepadan-4-text h2 {
         width: 500px;
+        margin-left: -0px;
     }
     .tepadan-4-img-1 {
-        margin-top: ;
         opacity: 0.5;
         position: absolute;
         background: #5454D4;
@@ -479,7 +479,7 @@
         width: 700px;
     }
     .tepadan-4-img {
-        margin-left: 200px;
+        margin-left: 150px;
         
     }
     .tepadan-4-text a {
@@ -490,7 +490,7 @@
         margin-left: -120px;
     }
     .tepadan-4-text {
-        margin-left: 150px;
+        margin-left: 100px;
         text-align: center;
         margin-top: 60px;
     }
@@ -505,12 +505,12 @@
         margin-top: -45px;
         background-blend-mode: multiply;
     }
-    .tepadan-4-qism {
-        display: block;
-    }
+  
     .tepadan-3-chi-qism {
-        display: flex;
-        /* margin-left: 50px; */
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
     }
     .tepadan-6-2 {
         width: 200px;
@@ -533,11 +533,11 @@
         text-align: center;
     }
     .tepadan-6-qism p {
-        margin-left: 130px;
+        margin-left: 80px;
     }
     .bolimlar-aro {
         border-radius: 10px;
-        margin-left: 350px;
+        margin-left: 250px;
         padding: 10px 20px;
         background-color: red;
         color: white;
@@ -546,7 +546,15 @@
     }
     .tepadan-8-1 h2 {
         text-align: center;
-        margin-left: 115px;
+        margin-left: 80px;
+        margin-top: -50px;
+    }
+    .eng-ohirgi-qism ul {
+        display: none;
+        margin-left: 80px;
+    } 
+    .menu {
+        display: flex;
     }
     .tepadan-8-2 {
         position: absolute;
@@ -554,7 +562,787 @@
         line-height: 25px;
         letter-spacing: -0.656526px;
         color: #FFFFFF;
-        margin-left: 300px;
+        margin-left: 250px;
+        margin-top: 120px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color,background-color 1s ease;
+    }
+}
+@media (max-width: 740px){
+    .container {
+        width: 600px;
+    }
+    .tepa-orta-katta {
+        display: block;
+    }
+    .tepa-orta {
+        color: #fff;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tepa-orta p {
+        margin-left: 70px;
+        width: 450px;
+        font-size: 21px;
+        margin-top: 10px;
+        line-height: 39px;
+        letter-spacing: -0.656526px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .Save-tons-of-time {
+        background-image: none;
+        /* background-color: #242427;
+        background-image: url(../img/Oval2.png), url(../img/yarim-oval.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 270px;
+        background-position: left -50px bottom -120px, top right -8%; */
+    }
+    .tepa-qism {
+        background-image: none;
+        /* background-image: url(../img/butun-oval.png), url(../img/Oval-1.png), url(../img/yarim-oval-2.png);
+        background-repeat: no-repeat;
+        background-size: 480px, 460px, 100px;
+        background-position: top 47% right 2%,  top 40% right 5%, bottom  left -30px; */
+    }
+    .form {
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 120px;
+        background-color: #fff;
+        background: #FFFFFF;
+        box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.788926);
+        border-radius: 10px;
+        margin-bottom: 300px;
+    }
+    .tepadan-4-text h2 {
+        width: 500px;
+        margin-left: -0px;
+    }
+    .tepadan-4-img-1 {
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+        background-blend-mode: multiply;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-left: 0px;
+    }
+    .button-img {
+        position: absolute;
+        margin-top: -38.5%;
+        margin-left: 37%;
+        width: 100px;
+       
+    }
+    .list-3 {
+        margin-left: -0px;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-right: 100px;
+    }
+    .big-img {
+        width: 600px;
+    }
+    .tepadan-4-img {
+        margin-left: 100px;
+        
+    }
+    .tepadan-4-text a {
+        padding: 9px 15px;
+        background-color: #5454D4;
+        border-radius: 5px;
+        transition: color, background-color 1s ease;
+        margin-left: -120px;
+    }
+    .tepadan-4-text {
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .tepadan-4-img-1 {
+        display: none;
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin-top: -45px;
+        background-blend-mode: multiply;
+    }
+  
+    .tepadan-3-chi-qism {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .tepadan-6-2 {
+        width: 200px;
+    }
+    .tepadan-6-3 {
+        margin-top: 80px;
+        width: 400px;
+    }
+    .tepadan-5-qism p {
+        width: 500px;
+        margin-top: 10px;
+    }
+    .tepadan-5-qism-img-1 {
+        width: 200px;
+    }
+    .tepadan-7-2 {
+        display: block;
+    }
+    .tepadan-5-qism-img-2 {
+        width: 400px;
+    }
+    .tepadan-6-qism {
+        display: block;
+        text-align: center;
+    }
+    .tepadan-6-qism p {
+        margin-left: 50px;
+    }
+    .bolimlar-aro {
+        display: none;
+        border-radius: 10px;
+        margin-left: 250px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        transition: color, background-color 1s ease;
+        margin-bottom: 40px;
+    }
+    .tepadan-8-1 h2 {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .eng-ohirgi-qism ul {
+        display: none;
+        margin-left: 80px;
+    } 
+    .menu {
+        display: flex;
+    }
+    .tepadan-8-2 {
+        position: absolute;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -0.656526px;
+        color: #FFFFFF;
+        margin-left: 200px;
+        margin-top: 130px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color,background-color 1s ease;
+    }
+}
+@media (max-width: 640px){
+    .container {
+        width: 500px;
+    }
+    .eng-tepa-qism-ul {
+        display: none;
+    }
+    .tepa-orta-katta {
+        display: block;
+    }
+    .tepa-orta {
+        color: #fff;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tepa-orta h2 {
+        margin-left: 40px;
+        width: 500px;
+        font-size: 45px;
+    }
+    .tepa-orta p {
+        margin-left: 70px;
+        width: 450px;
+        font-size: 21px;
+        margin-top: 10px;
+        line-height: 39px;
+        letter-spacing: -0.656526px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .Save-tons-of-time {
+        background-image: none;
+        /* background-color: #242427;
+        background-image: url(../img/Oval2.png), url(../img/yarim-oval.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 270px;
+        background-position: left -50px bottom -120px, top right -8%; */
+    }
+    .tepa-qism {
+        background-image: none;
+        /* background-image: url(../img/butun-oval.png), url(../img/Oval-1.png), url(../img/yarim-oval-2.png);
+        background-repeat: no-repeat;
+        background-size: 480px, 460px, 100px;
+        background-position: top 47% right 2%,  top 40% right 5%, bottom  left -30px; */
+    }
+    .form {
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 100px;
+        background-color: #fff;
+        background: #FFFFFF;
+        box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.788926);
+        border-radius: 10px;
+        margin-bottom: 300px;
+    }
+    .tepadan-4-text h2 {
+        width: 500px;
+        margin-left: -0px;
+    }
+    .tepadan-4-img-1 {
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+        background-blend-mode: multiply;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-left: 0px;
+    }
+    .button-img {
+        position: absolute;
+        margin-top: -38.5%;
+        margin-left: 37%;
+        width: 100px;
+       
+    }
+    .list-3 {
+        margin-left: -0px;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-right: 100px;
+    }
+    .big-img {
+        width: 550px;
+    }
+    .tepadan-4-img {
+        margin-left: 100px;
+        
+    }
+    .tepadan-4-text a {
+        padding: 9px 15px;
+        background-color: #5454D4;
+        border-radius: 5px;
+        transition: color, background-color 1s ease;
+        margin-left: -0px;
+    }
+    .tepadan-4-text {
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .tepadan-4-img-1 {
+        display: none;
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin-top: -45px;
+        background-blend-mode: multiply;
+    }
+  
+    .tepadan-3-chi-qism {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .tepadan-6-2 {
+        width: 200px;
+    }
+    .tepadan-6-3 {
+        margin-top: 80px;
+        width: 400px;
+    }
+    .tepadan-5-qism p {
+        width: 500px;
+        margin-top: 10px;
+    }
+    .tepadan-5-qism-img-1 {
+        width: 200px;
+    }
+    .tepadan-7-2 {
+        display: block;
+    }
+    .tepadan-5-qism-img-2 {
+        width: 300px;
+    }
+    .tepadan-6-qism {
+        display: block;
+        text-align: center;
+    }
+    .tepadan-6-qism p {
+        margin-left: 0px;
+    }
+    .bolimlar-aro {
+        display: none;
+        border-radius: 10px;
+        margin-left: 250px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        transition: color, background-color 1s ease;
+        margin-bottom: 40px;
+    }
+    .tepadan-8-1 h2 {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .eng-ohirgi-qism ul {
+        display: none;
+        margin-left: 80px;
+    } 
+    .menu {
+        display: flex;
+    }
+    .tepadan-8-2 {
+        position: absolute;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -0.656526px;
+        color: #FFFFFF;
+        margin-left: 150px;
+        margin-top: 180px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color,background-color 1s ease;
+    }
+}
+@media (max-width: 540px){
+    .container {
+        width: 400px;
+    }
+    .eng-tepa-qism-ul {
+        display: none;
+    }
+    .tepa-orta-katta {
+        display: block;
+    }
+    .tepa-orta {
+        color: #fff;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tepa-orta h2 {
+        margin-left: 30px;
+        width: 400px;
+        font-size: 45px;
+    }
+    .tepa-orta p {
+        margin-left: 30px;
+        width: 400px;
+        font-size: 21px;
+        margin-top: 10px;
+        line-height: 39px;
+        letter-spacing: -0.656526px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .Save-tons-of-time {
+        background-image: none;
+        /* background-color: #242427;
+        background-image: url(../img/Oval2.png), url(../img/yarim-oval.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 270px;
+        background-position: left -50px bottom -120px, top right -8%; */
+    }
+    .tepa-qism {
+        background-image: none;
+        /* background-image: url(../img/butun-oval.png), url(../img/Oval-1.png), url(../img/yarim-oval-2.png);
+        background-repeat: no-repeat;
+        background-size: 480px, 460px, 100px;
+        background-position: top 47% right 2%,  top 40% right 5%, bottom  left -30px; */
+    }
+    .tepadan-2-qism h2 {
+        font-size: 40px;
+        width: 450px;
+    }
+    .form {
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 50px;
+        background-color: #fff;
+        background: #FFFFFF;
+        box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.788926);
+        border-radius: 10px;
+        margin-bottom: 300px;
+    }
+    .tepadan-4-text h2 {
+        width: 500px;
+        margin-left: -0px;
+    }
+    .tepadan-4-img-1 {
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+        background-blend-mode: multiply;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-left: 0px;
+    }
+    .button-img {
+        position: absolute;
+        margin-top: -38.5%;
+        margin-left: 37%;
+        width: 70px;
+       
+    }
+    .list-3 {
+        margin-left: -50px;
+    }
+    .tepadan-4-img-2 {
+        width: 300px;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-right: 100px;
+    }
+    .big-img {
+        width: 450px;
+    }
+    .tepadan-4-img {
+        margin-left: 100px;
+        
+    }
+    .tepadan-4-text a {
+        padding: 9px 15px;
+        background-color: #5454D4;
+        border-radius: 5px;
+        transition: color, background-color 1s ease;
+        margin-left: -0px;
+    }
+    .tepadan-4-text {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .tepadan-5-qism-img {
+        display: block;
+    }
+    .tepadan-4-img-1 {
+        display: none;
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 450px;
+        height: 250px;
+        margin-top: -45px;
+        background-blend-mode: multiply;
+    }
+  
+    .tepadan-3-chi-qism {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .tepadan-6-2 {
+        width: 200px;
+    }
+    .tepadan-6-3 {
+        margin-top: 80px;
+        width: 400px;
+    }
+    .tepadan-5-qism p {
+        width: 400px;
+        justify-content: first baseline;
+        margin-top: 10px;
+    }
+    .tepadan-5-qism-img-1 {
+        width: 300px;
+    }
+    .tepadan-7-2 {
+        display: block;
+    }
+    .tepadan-5-qism-img-2 {
+        width: 400px;
+    }
+    .tepadan-6-qism {
+        display: block;
+        text-align: center;
+    }
+    .tepadan-6-qism p {
+        margin-left: 0px;
+        width: 400px;
+    }
+    .bolimlar-aro {
+        display: none;
+        border-radius: 10px;
+        margin-left: 250px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        transition: color, background-color 1s ease;
+        margin-bottom: 40px;
+    }
+    .tepadan-8-1 h2 {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: -50px;
+        font-size: 40px;
+    }
+    .eng-ohirgi-qism ul {
+        display: none;
+        margin-left: 80px;
+    } 
+    .menu {
+        display: flex;
+    }
+    .tepadan-8-2 {
+        position: absolute;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -0.656526px;
+        color: #FFFFFF;
+        margin-left: 100px;
+        margin-top: 110px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color,background-color 1s ease;
+    }
+}
+@media (max-width: 440px){
+    .container {
+        width: 300px;
+    }
+    .eng-tepa-qism-ul {
+        display: none;
+    }
+    .tepa-orta-katta {
+        display: block;
+    }
+    .tepa-orta {
+        color: #fff;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tepa-orta h2 {
+        margin-left: 0px;
+        width: 400px;
+        font-size: 45px;
+    }
+    .tepa-orta p {
+        margin-left: 0px;
+        width: 400px;
+        font-size: 21px;
+        margin-top: 10px;
+        line-height: 39px;
+        letter-spacing: -0.656526px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .Save-tons-of-time {
+        background-image: none;
+        /* background-color: #242427;
+        background-image: url(../img/Oval2.png), url(../img/yarim-oval.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 270px;
+        background-position: left -50px bottom -120px, top right -8%; */
+    }
+    .tepa-qism {
+        background-image: none;
+        /* background-image: url(../img/butun-oval.png), url(../img/Oval-1.png), url(../img/yarim-oval-2.png);
+        background-repeat: no-repeat;
+        background-size: 480px, 460px, 100px;
+        background-position: top 47% right 2%,  top 40% right 5%, bottom  left -30px; */
+    }
+    .tepadan-2-qism h2 {
+        font-size: 40px;
+        width: 350px;
+    }
+    .form {
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 0px;
+        background-color: #fff;
+        background: #FFFFFF;
+        box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.788926);
+        border-radius: 10px;
+        margin-bottom: 300px;
+    }
+    .tepadan-4-text h2 {
+        width: 400px;
+        font-size: 35px;
+        margin-left: -0px;
+        line-height: 40px;
+    }
+    .tepadan-4-img-1 {
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+        background-blend-mode: multiply;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-left: 0px;
+    }
+    .button-img {
+        position: absolute;
+        margin-top: -37.5%;
+        margin-left: 36%;
+        width: 60px;
+       
+    }
+    .list-3 {
+        margin-left: -100px;
+    }
+    .tepadan-4-img-2 {
+        width: 250px;
+    }
+    .tepadan-3-chi-qism {
+        display: block;
+        margin-right: 100px;
+    }
+    .big-img {
+        width: 350px;
+    }
+    .tepadan-4-img {
+        margin-left: 50px;
+        
+    }
+    .tepadan-4-text a {
+        padding: 9px 15px;
+        background-color: #5454D4;
+        border-radius: 5px;
+        transition: color, background-color 1s ease;
+        margin-left: -0px;
+    }
+    .tepadan-4-text {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .tepadan-4-text p {
+        margin-left: 40px;
+        width: 300px;
+    }
+    .tepadan-5-qism-img {
+        display: block;
+    }
+    .tepadan-4-img-1 {
+        display: none;
+        opacity: 0.5;
+        position: absolute;
+        background: #5454D4;
+        border-radius: 50%;
+        width: 450px;
+        height: 250px;
+        margin-top: -45px;
+        background-blend-mode: multiply;
+    }
+  
+    .tepadan-3-chi-qism {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .tepadan-6-2 {
+        width: 200px;
+        display: none;
+    }
+    .tepadan-6-3 {
+        margin-top: 80px;
+        width: 300px;
+    }
+    .tepadan-5-qism p {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .tepadan-5-qism-img-1 {
+        width: 300px;
+    }
+    .tepadan-7-2 {
+        display: block;
+    }
+    .tepadan-5-qism-img-2 {
+        width: 350px;
+    }
+    .tepadan-6-qism {
+        display: block;
+        text-align: center;
+    }
+    .tepadan-6-qism p {
+        margin-left: 0px;
+        width: 350px;
+    }
+    .bolimlar-aro {
+        display: none;
+        border-radius: 10px;
+        margin-left: 250px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        transition: color, background-color 1s ease;
+        margin-bottom: 40px;
+    }
+    .tepadan-8-1 h2 {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: -50px;
+        font-size: 40px;
+    }
+    .eng-ohirgi-qism ul {
+        display: none;
+        margin-left: 80px;
+    } 
+    .menu {
+        display: flex;
+    }
+    .tepadan-8-2 {
+        position: absolute;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -0.656526px;
+        color: #FFFFFF;
+        margin-left: 50px;
         margin-top: 180px;
         background: #F04037;
         border: 1px solid #C31A12;
